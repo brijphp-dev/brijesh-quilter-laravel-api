@@ -6,7 +6,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-https://.postman.co/workspace/API~706acc05-6202-40dd-9da5-c6729a961f6c/collection/613499-260157db-e7a4-468e-a39e-10ef6803aba1?action=share&creator=613499&active-environment=613499-3ab5ade9-6ac6-4cd6-a7f9-4eb076a8d1ea
 
 
 ## About Laravel
@@ -59,3 +58,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Step to run the project
+
+- clone this project and run **composer update** command
+- **npm install && npm run build**
+- For passport Key may need to run **php artisan passport:client --personal**
+- serve project local and run **php artisan db:seed** for test data
+- For apis I have used Postman and API collection is available at-
+- 
